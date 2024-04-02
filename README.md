@@ -22,8 +22,10 @@
 cd /path/to/your/spring-boot-project  
 
 git init  
+git branch -m main
 git remote add origin https://github.com/yourusername/your-repository-name.git  
+git pull origin main
 git add .  
 git commit -m "Initial commit"  
-git push -u origin main  
+git push origin main  
 
