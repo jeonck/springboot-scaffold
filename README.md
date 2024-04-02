@@ -15,32 +15,8 @@
 - Lombok: 보일러플레이트 코드를 줄이는 데 도움이 됩니다.
 
 # 프로젝트 구조 예시 
-my-spring-boot-project/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── myproject/
-│   │   │               ├── controller/
-│   │   │               │   └── HelloWorldController.java
-│   │   │               ├── model/
-│   │   │               │   └── User.java
-│   │   │               ├── repository/
-│   │   │               │   └── UserRepository.java
-│   │   │               ├── security/
-│   │   │               │   └── WebSecurityConfig.java
-│   │   │               └── MySpringBootApplication.java
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       └── data.sql
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── example/
-│                   └── myproject/
-│                       └── MySpringBootApplicationTests.java
-└── pom.xml
+<img width="547" alt="image" src="https://github.com/jeonck/springboot-scaffold/assets/11763994/0facd567-c36e-48b4-9713-c0c5cc35b8e9">
+
 
 # push 절차 
 cd /path/to/your/spring-boot-project
