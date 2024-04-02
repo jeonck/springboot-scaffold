@@ -19,11 +19,11 @@
 
 
 # push 절차 
-cd /path/to/your/spring-boot-project
+cd /path/to/your/spring-boot-project  
 
-git init
-git remote add origin https://github.com/yourusername/your-repository-name.git
-git add .
-git commit -m "Initial commit"
-git push -u origin main
+git init  
+git remote add origin https://github.com/yourusername/your-repository-name.git  
+git add .  
+git commit -m "Initial commit"  
+git push -u origin main  
 
