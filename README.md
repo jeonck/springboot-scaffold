@@ -29,3 +29,13 @@ git add .
 git commit -m "Initial commit"  
 git push origin main  
 
+# git pull 로 간단히 수행 설정  
+로컬의 main 브랜치가 원격 저장소 origin의 main 브랜치를 추적하도록 설정하고 싶은 경우 다음 명령어를 사용  
+git branch --set-upstream-to=origin/main main  
+
+# 추적 브랜치 확인 명령어  
+git branch -vv  
+
+추적 브랜치가 설정된 경우 예시  
+* main   c4d48a4 [origin/main] 최신 커밋 메시지  
+  feature  a9c2a4d [origin/feature] 다른 커밋 메시지  
